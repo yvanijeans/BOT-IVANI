@@ -1,7 +1,8 @@
 import bot from "@bot-whatsapp/bot";
 import { typing, delay, sendReaction } from '../utils/utils.js';
+const regexPromo = `/^promo1$/i`;
 
-export const flowPromo = bot .addKeyword('PROMO1')
+export const flowPromo = bot .addKeyword(regexPromo, {regex: true})
 .addAction(async (ctx, {flowDynamic, provider}) =>{  
 
     await sendReaction(provider, ctx, "❤️");

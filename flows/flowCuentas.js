@@ -1,7 +1,8 @@
 import bot from "@bot-whatsapp/bot";
 import { typing, delay, sendReaction } from '../utils/utils.js';
+const regexCuentas = `/^c1$/i`;
 
-export const flowCuentas = bot .addKeyword('c1')
+export const flowCuentas = bot .addKeyword(regexCuentas, {regex: true})
 .addAction(async (ctx, {flowDynamic, provider}) =>{  
     
     await sendReaction(provider, ctx, "❤️");
