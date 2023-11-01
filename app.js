@@ -11,6 +11,7 @@ import { flowEnvio } from "./flows/flowEnvio.js";
 import { flowCuentas } from "./flows/flowCuentas.js";
 import { flowCalidad } from "./flows/flowCalidad.js";
 import { flowPromo } from "./flows/flowPromo.js";
+import { flowPrueba } from "./flows/flowPrueba.js";
 
 
 
@@ -23,7 +24,8 @@ const main = async () => {
         flowEnvio,
         flowCuentas,
         flowCalidad,
-        flowPromo
+        flowPromo,
+        flowPrueba
 
     ])
     const adapterProvider = bot.createProvider(BaileysProvider)
