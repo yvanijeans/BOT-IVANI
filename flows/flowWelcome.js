@@ -15,7 +15,7 @@ if (agregado) {
     await sendReaction(provider, ctx, "❤️");
     await typing(provider, ctx, 2000);
     await flowDynamic([{
-        body: `Hola *${ctx.pushaName}*\nPuedes hacernos estas consultas:\n\n├1️⃣ _*CATÁLOGO CON PRECIOS*_\n├2️⃣ _*CATÁLOGO EN PDF*_\n├3️⃣ _*DIRECCIÓN DE NUESTRAS TIENDAS?*_\n├4️⃣ _*INFORMACIÓN DE NUESTROS ENVÍOS?*_\n├5️⃣ _*EJEMPLOS PARA REALIZAR UN PEDIDO?*_\n├6️⃣ _*PARA ABSOLVER TUS PREGUNTAS?*_\n├7️⃣ _*COMUNICATE CON UN ASESOR*_\n\n◼ _Escribe el número  para enviar la informacion._\n◼ _Si tu consulta no está en el menú, escríbela directamente._\n◼ _Siempre que quieras ver estas opciones, escribe menú_`,
+        body: `Hola *${ctx.pushName}*\nPuedes hacernos estas consultas:\n\n├1️⃣ _*CATÁLOGO CON PRECIOS*_\n├2️⃣ _*CATÁLOGO EN PDF*_\n├3️⃣ _*DIRECCIÓN DE NUESTRAS TIENDAS?*_\n├4️⃣ _*INFORMACIÓN DE NUESTROS ENVÍOS?*_\n├5️⃣ _*EJEMPLOS PARA REALIZAR UN PEDIDO?*_\n├6️⃣ _*PARA ABSOLVER TUS PREGUNTAS?*_\n├7️⃣ _*COMUNICATE CON UN ASESOR*_\n\n◼ _Escribe el número  para enviar la informacion._\n◼ _Si tu consulta no está en el menú, escríbela directamente._\n◼ _Siempre que quieras ver estas opciones, escribe menú_`,
         media: 'https://atubot.net.pe/chatbots/ivani-jeans/BIENVENIDOS.jpg'
        }
     ])

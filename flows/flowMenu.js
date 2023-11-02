@@ -59,7 +59,7 @@ export const flowMenu = bot .addKeyword(regexMenu, {regex: true})
           await sendReaction(provider, ctx, "❤️");
           await typing(provider, ctx, 2000);
           await flowDynamic([{
-           body: `*${ctx.pushName}*\n❤️👑 _*ADJUNTAMOS CATÁLOGO EN PDF. LIMPIO SIN LOGOS NI MARCA PARA QUE ENVÍES A TUS CLIENTES DE FORMA DIRECTA*_ 👑❤️?\n\n📝 _*RECUERDA QUE EL PEDIDO MÍNIMO ES DE 6 PRENDAS A MAS.*_\n\n✅ _*SOLO VENDEMOS POR MAYOR*_\n📛  OJO 📛\n✅EN EL CATÁLOGO PDF. TRABAJAMOS CON CÓDIGOS PARA QUE SOLO UDS SEPAN EL PRECIO DE CADA MODELO.\n✅EJEMPLO " CODIGO-66  SIGNIFICA QUE SI LO DIVIDES ENTRE 2 ES IGUAL A S/33 SOLES . QUE SERIAN NUESTROS PRECIOS POR MAYOR❤️❤️❤️`,
+           body: `*${ctx.pushName}*\n❤️👑 _*ADJUNTAMOS CATÁLOGO EN PDF. LIMPIO SIN LOGOS NI MARCA PARA QUE ENVÍES A TUS CLIENTES DE FORMA DIRECTA*_ 👑❤️?\n\n📛  OJO 📛\n✅EN EL CATÁLOGO PDF. TRABAJAMOS CON CÓDIGOS PARA QUE SOLO UDS SEPAN EL PRECIO DE CADA MODELO.\n✅EJEMPLO " CODIGO-66  SIGNIFICA QUE SI LO DIVIDES ENTRE 2 ES IGUAL A S/33 SOLES . QUE SERIAN NUESTROS PRECIOS POR MAYOR❤️❤️❤️\n📝 _*RECUERDA QUE EL PEDIDO MÍNIMO ES DE 6 PRENDAS A MAS.*_\n( _si deseas llevar 3 prendas le sumamos 10soles adicional por prenda_ )\n✅ _*SOLO VENDEMOS POR MAYOR*_`,
            media: 'https://atubot.net.pe/chatbots/ivani-jeans/imagen1.jpg'
           }])
           typing(provider, ctx, 3000);
